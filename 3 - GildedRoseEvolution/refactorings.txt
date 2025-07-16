@@ -1,0 +1,8 @@
+refactorings were made to improve the readability and functionality of the code
+but also following oop principles.
+by using itemInterface, we eliminate the need to modify the item class 
+(as per exercise guidelines) making it easier if we want to add more items later,
+so the class item can then use this interface. some methods were changed so each item
+'knows' how to update its own quality. encapsulation principles were still followed
+by using the class item adapter . making the whole program more understandable
+and scalable for the future.

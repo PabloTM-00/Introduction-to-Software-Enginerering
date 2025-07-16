@@ -1,0 +1,4 @@
+# Created at 2025-03-18T23:55:06.993
+Boot Manifest-JAR contains absolute paths in classpath 'D:\GildedRose-Refactoring-Kata-main\Java\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
