@@ -1,0 +1,15 @@
+
+ª
+java:S5778B"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(¿² Ïýÿÿÿÿ8÷ó¨œó1J$41b04ce3-c554-4ea9-846e-eec2f15776c1
+™
+java:S3415C"VSwap these 2 arguments so they are in the correct order: expected value, actual value.(þ„íÍ8÷ó¨œó1J$5f73831e-704a-45fd-a2e7-92acc1d6d7ae
+¥
+java:S5778H"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(ëàº‰8øó¨œó1J$7f6b8160-7835-4381-9391-5fe9e06cc876
+˜
+java:S3415I"VSwap these 2 arguments so they are in the correct order: expected value, actual value.(Îöïu8øó¨œó1J$753cc40b-0d26-4ded-adcf-ccb47399ce0e
+g
+java:S2925q"$Remove this use of "Thread.sleep()".(¯ú™ú8øó¨œó1J$0ac48c4d-1fe8-459f-bdd6-d91c9e4c262d
+g
+java:S2925}"$Remove this use of "Thread.sleep()".(¯ú™ú8ùó¨œó1J$7b04b143-074a-46c0-94ed-181ece0d6126
+g
+java:S2925…"$Remove this use of "Thread.sleep()".(©Ø®8ùó¨œó1J$52ff57c3-481c-459f-a404-b32189b04cd9

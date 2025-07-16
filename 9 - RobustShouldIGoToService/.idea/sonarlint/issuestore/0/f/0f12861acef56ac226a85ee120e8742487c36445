@@ -1,0 +1,13 @@
+
+	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(»üÒşÿÿÿÿ8¯æ£ñô1J$c3c8d7c8-507f-42d9-a38b-b4cc2c286724
+¡
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(®‰ Œùÿÿÿÿ8±æ£ñô1J$590317df-4a97-42f6-8679-63bbcc3713ec
+¡
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍØÚùÿÿÿÿ8±æ£ñô1J$2a046b9b-df49-460d-865a-339c6471a0df
+«
+java:S1319"cThe type of "ms" should be an interface such as "List" rather than the implementation "LinkedList".(±é¹³ÿÿÿÿÿ8±æ£ñô1J$a382c554-cab0-4ab9-88c8-aa2d6a20b0d0
+«
+java:S1319"cThe type of "ws" should be an interface such as "List" rather than the implementation "LinkedList".(±é¹³ÿÿÿÿÿ8±æ£ñô1J$b0c01c7a-444d-44c6-9841-4989b7346ed5
+L	java:S106;"+Replace this use of System.out by a logger.(¼İÌ¤úÿÿÿÿ8ôÂÖ™õ1
+‰
+java:S1126="AReplace this if-then-else statement by a single return statement.(æÆòşÿÿÿÿ8Íæ£ñô1J$2724f3ae-95c8-4b36-9aae-76f135af5a3b

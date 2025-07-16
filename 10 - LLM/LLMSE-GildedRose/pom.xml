@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <!-- Maven model version - always 4.0.0 for Maven 2 and 3 -->
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- Project coordinates for unique identification -->
+  <groupId>org.iis2025</groupId>              <!-- Reverse domain name of the organization -->
+  <artifactId>GildedRose</artifactId>        <!-- Name of the project/module -->
+  <version>1.0-SNAPSHOT</version>             <!-- Version, with SNAPSHOT indicating it's a work in progress -->
+  <packaging>jar</packaging>                  <!-- Packaging type - JAR for Java applications -->
+
+  <!-- Project metadata -->
+  <name>GildedRose</name>                    <!-- Human-readable project name -->
+  <url>http://maven.apache.org</url>          <!-- Project website or repository URL -->
+
+  <!-- Project-wide configuration properties -->
+  <properties>
+    <!-- Java version to compile and run the project -->
+    <maven.compiler.release>22</maven.compiler.release>
+
+    <!-- Ensure consistent source file encoding across different platforms -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <!-- Information about project developers -->
+  <developers>
+    <developer>
+      <name>Antonio J. Nebro</name>            <!-- Full name of the developer -->
+      <email>ajnebro@uma.es</email>            <!-- Contact email -->
+      <organization>University of Málaga</organization>  <!-- Affiliated organization -->
+    </developer>
+  </developers>
+
+  <!-- Configuration for generating project reports -->
+  <reporting>
+    <plugins>
+      <!-- Plugin to generate project information reports -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>3.9.0</version>
+        <configuration>
+          <skip>false</skip>                  <!-- Enable report generation -->
+          <dependencyDetailsEnabled>false</dependencyDetailsEnabled>  <!-- Disable detailed dependency info -->
+        </configuration>
+      </plugin>
+
+      <!-- Plugin to generate Javadoc documentation -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.11.2</version>
+      </plugin>
+    </plugins>
+  </reporting>
+
+  <!-- Centralized dependency version management -->
+  <dependencyManagement>
+    <dependencies>
+      <!-- JUnit Bill of Materials (BOM) to ensure consistent JUnit dependency versions -->
+      <dependency>
+        <groupId>org.junit</groupId>
+        <artifactId>junit-bom</artifactId>
+        <version>5.12.0</version>
+        <type>pom</type>
+        <scope>import</scope>  <!-- Import version constraints from this BOM -->
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <!-- Project dependencies -->
+  <dependencies>
+    <!-- JUnit Jupiter for testing -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>  <!-- Only used during testing, not compiled into final artifact -->
+    </dependency>
+  </dependencies>
+</project>
